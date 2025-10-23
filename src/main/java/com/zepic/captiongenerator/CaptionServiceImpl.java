@@ -30,7 +30,7 @@ public class CaptionServiceImpl implements CaptionService {
 
 
         InvokeEndpointRequest invokeRequest = InvokeEndpointRequest.builder()
-                .endpointName("huggingface-pytorch-inference-2025-10-23-15-39-26-706")
+                .endpointName("<ENDPOINT_NAME>")
                 .body(SdkBytes.fromUtf8String(payloadString))
                 .build();
 
